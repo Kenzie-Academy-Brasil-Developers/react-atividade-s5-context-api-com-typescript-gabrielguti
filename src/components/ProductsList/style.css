@@ -1,0 +1,32 @@
+.BoxItem {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  margin: 2vh;
+  background-color: white;
+}
+.BoxItem button {
+  background-color: rgb(167, 1, 167);
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.BoxItem img {
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .Products {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
